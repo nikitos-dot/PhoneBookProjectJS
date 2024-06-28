@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+}
+
+.Book {
+  display: flex;
+}
+
+.btns {
+  display: flex;
+  justify-content: end;
+  padding: 0 auto;
+}
+
+.btn {
+  margin: 0 2%;
+  margin: 0 3%;
+}
+
+li>div {
+  width: 50%;
+
+  border: 1px solid blue;
+
+}
+
+
+
+/* .person_name {
+  margin: 10%;
+}
+
+.Book>div {
+  margin: 3%;
+  border: 1px solid red;
+}
+
+.btns {
+  margin-left: 11%;
+  border: 1px solid black;
+} */
+
+
+body {
+  flex-direction: column;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
+#main {
+  background-color: aliceblue;
+}
+
+header,
+footer {
+  padding: 30px;
+  text-align: center;
+}
