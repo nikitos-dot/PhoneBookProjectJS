@@ -4,52 +4,10 @@
   padding: 0;
 }
 
-li {
-  display: flex;
-}
-
-.Book {
-  display: flex;
-}
-
-.btns {
-  display: flex;
-  justify-content: end;
-  padding: 0 auto;
-}
-
-.btn {
-  margin: 0 2%;
-  margin: 0 3%;
-}
-
-li>div {
-  width: 50%;
-
-  border: 1px solid blue;
-
-}
-
-
-
-/* .person_name {
-  margin: 10%;
-}
-
-.Book>div {
-  margin: 3%;
-  border: 1px solid red;
-}
-
-.btns {
-  margin-left: 11%;
-  border: 1px solid black;
-} */
-
-
 body {
+  display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100vh;
   background-color: antiquewhite;
 }
 
@@ -57,18 +15,100 @@ h1 {
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
 }
 
 main {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-#main {
-  background-color: aliceblue;
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
-header,
-footer {
-  padding: 30px;
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+.person_name,
+.person_number {
+  padding: 5px;
+}
+
+#phone_book_icon {
+  width: 7%;
+  margin-left: 46%;
+  margin-top: 1%;
+
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  /* Center align buttons */
+  margin-top: 10px;
+}
+
+.btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.Book {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.form-container {
   text-align: center;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-container input[type="input-group"] {
+  width: 30%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-container .button-container {
+  display: flex;
+  justify-content: center;
+  /* Center align buttons */
+  margin-top: 10px;
+}
+
+.form-container .btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+footer {
+  text-align: center;
+  /* Center align text */
+  padding: 10px;
+  background-color: #f0f0f0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
