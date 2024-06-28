@@ -82,7 +82,7 @@ li {
   margin-bottom: 10px;
 }
 
-.form-container input[type="input-group"] {
+.form-container input[type="text"] {
   width: 30%;
   padding: 10px;
   margin: 8px 0;
@@ -111,4 +111,12 @@ footer {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 }
