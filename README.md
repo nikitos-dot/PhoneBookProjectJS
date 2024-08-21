@@ -6,3 +6,7 @@ the plan is to add a design, and improve upon out code so it will look beteer wi
 and also the general design project, betterment, among other things, the design wise and reactivity wise!
 also for each add contacts or delete, or addding whole list, we plan on still editing sorting for the array we have
 we also going to add full documentation of the functions,but we did gVe them a suitable name for now.
+21.08.2024:
+what we did is basiclly add all the functions in the java scipt users, add contact, edit delte buttons that all do what the name suggests them to do, also addes a sort function which sorts all the user array.
+also we added listeners to open the suitable elements for the add, delete, edit and also suitable color change wiht mouse over.
+we added some documentation for clarity, fixed number of bugs, alittle bit more desing to the website, and it seems to ne responsive in the mobile devices, when we tested it on the physical devices them self, and not the chrome simulator.
